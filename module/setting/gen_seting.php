@@ -1,0 +1,1 @@
+this is general settings page for admin.

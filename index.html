@@ -1,0 +1,12 @@
+Select All <input onclick="chk()"  type="checkbox" id="chkAll">
+<br>
+<input type="checkbox" value="a" name="abc[]" class="hobbie">
+<input type="checkbox" checked value="b" name="abc[]" class="hobbie">
+<input type="checkbox" checked value="c" name="abc[]" class="hobbie">
+<input type="checkbox" value="d" name="abc[]" class="hobbie">
+<script type="text/javascript" src="include/js/1jquery.min.js"></script>
+<script type="text/javascript">
+function chk() {
+	var yourArray = $(".hobbie:checked").map(function(){return $(this).val()}).get();
+}
+</script>

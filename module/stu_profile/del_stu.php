@@ -1,0 +1,11 @@
+<?php 
+	if(isset($_GET['id'])){
+		$id=$_GET['id'];
+		delete('stu_profile',$id);
+		?>
+		<script>
+			location.href=root_path+"index/stu_profile/syn_see_stu_profile";
+		</script>
+		<?php
+	}
+?>

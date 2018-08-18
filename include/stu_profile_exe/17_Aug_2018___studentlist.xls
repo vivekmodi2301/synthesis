@@ -1,0 +1,104 @@
+				<html xmlns:o="urn:schemas-microsoft-com:office:office"
+				xmlns:x="urn:schemas-microsoft-com:office:excel"
+				xmlns="http://www.w3.org/TR/REC-html40">
+
+				<head>
+				<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+				<meta name=ProgId content=Excel.Sheet>
+				<!--[if gte mso 9]><xml>
+				 <o:DocumentProperties>
+				  <o:LastAuthor>Sriram</o:LastAuthor>
+				  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+				  <o:Version>10.2625</o:Version>
+				 </o:DocumentProperties>
+				 <o:OfficeDocumentSettings>
+				  <o:DownloadComponents/>
+				 </o:OfficeDocumentSettings>
+				</xml><![endif]-->
+				<style>
+				<!--table
+					{mso-displayed-decimal-separator:"\.";
+					mso-displayed-thousand-separator:"\,";}
+				@page
+					{margin:1.0in .75in 1.0in .75in;
+					mso-header-margin:.5in;
+					mso-footer-margin:.5in;}
+				tr
+					{mso-height-source:auto;}
+				col
+					{mso-width-source:auto;}
+				br
+					{mso-data-placement:same-cell;}
+				.style0
+					{mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					white-space:nowrap;
+					mso-rotate:0;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					border:none;
+					mso-protection:locked visible;
+					mso-style-name:Normal;
+					mso-style-id:0;}
+				td
+					{mso-style-parent:style0;
+					padding-top:1px;
+					padding-right:1px;
+					padding-left:1px;
+					mso-ignore:padding;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					border:none;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					mso-protection:locked visible;
+					white-space:nowrap;
+					mso-rotate:0;}
+				.xl24
+					{mso-style-parent:style0;
+					white-space:normal;}
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>srirmam</x:Name>
+					<x:WorksheetOptions>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10005</x:WindowHeight>
+				  <x:WindowWidth>10005</x:WindowWidth>
+				  <x:WindowTopX>120</x:WindowTopX>
+				  <x:WindowTopY>135</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 ><b>S. No.</b></td><td class=xl24 width=64 ><b>Token No</b></td><td class=xl24 width=64 ><b>Student Name</b></td><td class=xl24 width=64 ><b>Father Name</b></td><td class=xl24 width=64 ><b>Class</b></td><td class=xl24 width=64 ><b>Mobile No.(Father)</b></td><td class=xl24 width=64 ><b>Gender</b></td><td class=xl24 width=64 ><b>Intrested In</b></td><td class=xl24 width=64 ><b>Refer To</b></td><td class=xl24 width=64 ><b>Submit By</b></td><td class=xl24 width=64 ><b>Date</b></td></tr><tr><td class=xl24 width=64 >1</td><td class=xl24 width=64 >1235731</td><td class=xl24 width=64 >Jayshree </td><td class=xl24 width=64 >Mahender Singh </td><td class=xl24 width=64 >8th</td><td class=xl24 width=64 >9413094281</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td><td class=xl24 width=64 >Master Admin</td><td class=xl24 width=64 >11-06-2018</td></tr><tr><td class=xl24 width=64 >2</td><td class=xl24 width=64 >1235935</td><td class=xl24 width=64 >hello</td><td class=xl24 width=64 >lkj</td><td class=xl24 width=64 >8th</td><td class=xl24 width=64 >8947800330</td><td class=xl24 width=64 >male</td><td class=xl24 width=64 >enquiry</td><td class=xl24 width=64 >1</td><td class=xl24 width=64 >Master Admin</td><td class=xl24 width=64 >22-06-2018</td></tr><tr><td class=xl24 width=64 >3</td><td class=xl24 width=64 >1235939</td><td class=xl24 width=64 >hello</td><td class=xl24 width=64 >lkj</td><td class=xl24 width=64 >8th</td><td class=xl24 width=64 >8947800330</td><td class=xl24 width=64 >male</td><td class=xl24 width=64 >enquiry</td><td class=xl24 width=64 >1</td><td class=xl24 width=64 >Master Admin</td><td class=xl24 width=64 >26-06-2018</td></tr><tr><td class=xl24 width=64 >4</td><td class=xl24 width=64 >1235970</td><td class=xl24 width=64 >testing</td><td class=xl24 width=64 >sdf</td><td class=xl24 width=64 >8th</td><td class=xl24 width=64 >7014233930</td><td class=xl24 width=64 >male</td><td class=xl24 width=64 >test series</td><td class=xl24 width=64 >10</td><td class=xl24 width=64 >Master Admin</td><td class=xl24 width=64 >04-07-2018</td></tr><tr><td class=xl24 width=64 >5</td><td class=xl24 width=64 >1235974</td><td class=xl24 width=64 >ABC</td><td class=xl24 width=64 >SDFKLJ</td><td class=xl24 width=64 >8th</td><td class=xl24 width=64 >8947800330</td><td class=xl24 width=64 >male</td><td class=xl24 width=64 >enquiry</td><td class=xl24 width=64 >1</td><td class=xl24 width=64 >Master Admin</td><td class=xl24 width=64 >05-07-2018</td></tr><tr><td class=xl24 width=64 >6</td><td class=xl24 width=64 >1235974</td><td class=xl24 width=64 >ABC</td><td class=xl24 width=64 >SDFKLJ</td><td class=xl24 width=64 >8th</td><td class=xl24 width=64 >8947800330</td><td class=xl24 width=64 >male</td><td class=xl24 width=64 >enquiry</td><td class=xl24 width=64 >1</td><td class=xl24 width=64 >Master Admin</td><td class=xl24 width=64 >05-07-2018</td></tr><tr><td class=xl24 width=64 >7</td><td class=xl24 width=64 >1235975</td><td class=xl24 width=64 >ABCCQ</td><td class=xl24 width=64 >DF</td><td class=xl24 width=64 >8th</td><td class=xl24 width=64 >8947800330</td><td class=xl24 width=64 >male</td><td class=xl24 width=64 >enquiry</td><td class=xl24 width=64 >1</td><td class=xl24 width=64 >Master Admin</td><td class=xl24 width=64 >05-07-2018</td></tr><tr><td class=xl24 width=64 >8</td><td class=xl24 width=64 >1235974</td><td class=xl24 width=64 >ABC</td><td class=xl24 width=64 >SDFKLJ</td><td class=xl24 width=64 >8th</td><td class=xl24 width=64 >8947800330</td><td class=xl24 width=64 >male</td><td class=xl24 width=64 >enquiry</td><td class=xl24 width=64 >1</td><td class=xl24 width=64 >Master Admin</td><td class=xl24 width=64 >05-07-2018</td></tr><tr><td class=xl24 width=64 >9</td><td class=xl24 width=64 >1236022</td><td class=xl24 width=64 >Ojashavi</td><td class=xl24 width=64 >Kishanlal </td><td class=xl24 width=64 >8th</td><td class=xl24 width=64 >9521292929</td><td class=xl24 width=64 >female</td><td class=xl24 width=64 >other</td><td class=xl24 width=64 >11</td><td class=xl24 width=64 >Master Admin</td><td class=xl24 width=64 >09-07-2018</td></tr></table></body></html>

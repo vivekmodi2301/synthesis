@@ -1,0 +1,28 @@
+RewriteEngine On
+php_value max_execution_time 800
+RewriteRule ^index?$ index.php
+RewriteRule ^index/?$ index.php
+RewriteRule ^print_token/([0-9]+)?$ print_token.php?id=$1
+
+
+RewriteRule ^index/i_crd/syn_i_per/page=([0-9]+) index.php?mod=i_crd&do=syn_i_per&pageNumber=$1
+RewriteRule ^index/pdc_chq/syn_show_all_pdc/page=([0-9]+) index.php?mod=pdc_chq&do=syn_show_all_pdc&pageNumber=$1
+RewriteRule ^index/salary/syn_salary_list/uid=([0-9]+) index.php?mod=salary&do=syn_salary_list&uid=$1
+RewriteRule ^index/salary/syn_salary_list/page=([0-9]+) index.php?mod=salary&do=syn_salary_list&pageNumber=$1
+RewriteRule ^index/salary/syn_a_salary/salary=([0-9]+)/table=([a-z_A-Z]+) index.php?mod=salary&do=syn_a_salary&salary=$1&table=$2
+RewriteRule ^index/salary/syn_s_salary/([0-9]+)/([a-z_A-Z]+)/([0-9]+)/([0-9]+) index.php?mod=salary&do=syn_salary_list&id=$1&table=$2&leave=$3&uid=$4
+RewriteRule ^index/expenses/see_pay/did=([0-9]+)/([0-9]+) index.php?mod=expenses&do=see_pay&did=$1&sid=$2
+RewriteRule ^index/expenses/syn_s_expenses/page=([0-9]+) index.php?mod=expenses&do=syn_s_expenses&pageNumber=$1
+RewriteRule ^index/stu_library/syn_a_lib/did=([0-9]+) index.php?mod=stu_library&do=syn_a_lib&did=$1
+RewriteRule ^index/vehicl_profile/syn_see/page=([0-9]+) index.php?mod=vehicl_profile&do=syn_see&pageNumber=$1
+RewriteRule ^index/emp_profile/syn_s_employee/page=([0-9]+) index.php?mod=emp_profile&do=syn_s_employee&pageNumber=$1
+RewriteRule ^index/teachr_profile/syn_s_profile/page=([0-9]+) index.php?mod=teachr_profile&do=syn_s_profile&pageNumber=$1
+RewriteRule ^index/fee_dtl/syn_s_fee/page=([0-9]+) index.php?mod=fee_dtl&do=syn_s_fee&pageNumber=$1
+RewriteRule ^index/reception/recep_list/page=([0-9]+) index.php?mod=reception&do=recep_list&pageNumber=$1
+RewriteRule ^index/fee_dtl/syn_pdc_fee/([0-9]+) index.php?mod=fee_dtl&do=syn_pdc_fee&id=$1
+RewriteRule ^index/stu_profile/syn_see_stu_profile/page=([0-9]+) index.php?mod=stu_profile&do=syn_see_stu_profile&pageNumber=$1
+RewriteRule ^index/pdc_chq/syn_s_chq/page=([0-9]+) index.php?mod=pdc_chq&do=syn_s_chq&pageNumber=$1
+RewriteRule ^index/pdc_chq/syn_pdc_dtl/([0-9]+) index.php?mod=pdc_chq&do=syn_pdc_dtl&roll=$1
+RewriteRule ^index/fee_dtl/syn_fee_dtl/([0-9]+) index.php?mod=fee_dtl&do=syn_fee_dtl&roll=$1
+RewriteRule ^index/([a-z_]+)/([a-z_]+)/([0-9]+) index.php?mod=$1&do=$2&id=$3
+RewriteRule ^index/([a-z_]+)/([a-z_]+) index.php?mod=$1&do=$2

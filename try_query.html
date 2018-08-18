@@ -1,0 +1,25 @@
+select roll_no as roll,sum(pdc.amount) as amount,count(amount) as given,stu_profile.name,f_name,scholarship,class_id,batch_id,statuss from stu_profile left join pdc on pdc.roll=stu_profile.roll_no where 1 and class_id!='' and wheree='addmission'  group by roll_no having count(amount)=2 and (select count(statuss) as statuss from pdc where roll='$pdc_value[roll]' and statuss='cleared' group by roll)= 1 limit 0, 10
+
+
+
+
+
+select (select count(statuss) as statuss from pdc where roll='$pdc_value[roll]' and statuss='cleared' group by roll) as cl from stu_profile left join pdc on pdc.roll=stu_profile.roll_no where 1 and class_id!='' and wheree='addmission'  group by roll_no having count(amount)=2  limit 0, 10
+
+
+
+select roll_no,(select count(statuss) as statuss from pdc  where statuss='cleared' group by roll) as cl from stu_profile left join pdc on pdc.roll=stu_profile.roll_no where 1 and class_id!='' and wheree='addmission'  group by roll_no having count(amount)=2  limit 0, 10
+
+
+select roll_no,(select statuss as statuss from pdc  where statuss='cleared' group by roll)as cl from stu_profile left join pdc on pdc.roll=stu_profile.roll_no where 1 and class_id!='' and wheree='addmission'  group by roll_no having count(amount)=2  limit 0, 10
+
+
+select roll,(select count(statuss) from pdc where statuss='cleared') as count from pdc having (select count(statuss) from pdc where statuss='cleared')=0
+
+select roll,(select count(statuss) from pdc where statuss='cleared') as count,(select count(statuss) from pdc where statuss='recived') as rcount from pdc where statuss='cleared'or statuss='recived' having (select count(statuss) from pdc where statuss='cleared')=1 and (select count(statuss) from pdc where statuss='recived')=2
+
+
+
+SELECT * FROM `pdc` WHERE roll='51833' and statuss in('recived','cleared')
+
+SELECT sum(statuss='recived'),sum(statuss='cleared') FROM `pdc` group by roll 

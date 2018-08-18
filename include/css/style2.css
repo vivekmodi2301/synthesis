@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family:"Century Gothic";
+	font-size:14px;
+}
+
+.shadow
+{
+	
+}
+
+.inquire
+{
+	 padding-left:10px;
+	 color:#DA251D;
+	 
+}
+
+.content_page_heading
+{
+	background:#DA251D;
+	height:50px;
+	color:#fff;
+}
+
+.text_setting
+{
+	text-align:center;
+	padding-left:50px;
+	color:#000;
+}
+
+.text_setting_bold
+{
+	font-weight:bold;
+}
+
+
+/*input type checkbox css starts here*/
+
+input[type='checkbox'] {
+	margin-top: -30px;
+}
+
+input[type='checkbox'] {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeSpeed;
+	width: 13px;
+	height: 13px;
+	margin: 0;
+	margin-right: 1px;
+	display: block;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+input[type='checkbox']:after {
+	content: "";
+	vertical-align: middle;
+	text-align: center;
+	line-height: 13px;
+	position: absolute;
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	left: 0;
+	top: 0;
+	font-size: 10px;
+	-webkit-box-shadow: inset 0 1px 1px #5F95FC, 0 1px 0 #5F95FC;
+	-moz-box-shadow: inset 0 1px 1px #5F95FC, 0 1px 0 #5F95FC;
+	box-shadow: inset 0 1px 1px #5F95FC, 0 1px 0 #5F95FC;
+	background: #CCCCCC;
+}
+
+input[type='checkbox']:hover:after, input[type='checkbox']:checked:hover:after {
+	background: #5F95FC;
+	content: '\2714';
+	color: #fff;
+}
+
+input[type='checkbox']:checked:after {
+	background: #5F95FC;
+	content: '\2714';
+	color: #fff;
+}
+
+/*input type checkbox css ends here*/
+
+.profile_chng_color
+{
+	color:#900;
+}
+
+.star
+{
+	color:#990000;
+}
